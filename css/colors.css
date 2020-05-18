@@ -1,0 +1,102 @@
+/* Colors */
+/*
+color: hsl(224, 93%, 58%);
+color: hsl(170, 45%, 43%);
+color: hsl(240, 75%, 98%);
+color: hsl(0, 0%, 75%);
+*/
+
+body{
+    background-color: #fff;
+    color: hsl(243, 87%, 12%);
+}
+
+/* Header */
+
+.navbar-item a{
+    color: hsl(243, 87%, 12%);
+}
+
+.navbar-item a:hover{
+    color: hsl(0, 0%, 75%);
+}
+
+/* Opening */
+
+.opening{
+    color: hsl(243, 87%, 12%);
+}
+
+.light-section > .paragraph{
+    color: hsl(240, 75%, 98%);
+}
+.dark-section > .paragraph{
+    color: hsl(243, 87%, 12%);
+}
+
+.button-submit{
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+}
+
+
+/* Features */
+
+.features{
+    background-color: #F8F8FE;
+}
+
+.how-it-works a{
+    /* color: hsl(170, 45%, 43%); */
+}
+
+/* .how-it-works-text:hover{
+    color: hsl(170, 45%, 63%);
+} */
+
+.how-it-works a:hover{
+    color: hsl(170, 45%, 63%);
+}
+
+.how-it-works-text{
+    color: hsl(170, 45%, 43%);
+}
+
+/* Testimonial */
+
+.testimonial{
+    background-color: #fff;
+}
+
+.testimonial-text .paragraph{
+    color: hsl(243, 87%, 12%);
+}
+
+
+/* Get Access */
+
+.get-access{
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+}
+
+.cta-button-submit{
+    background-color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+}
+
+
+/* Footer Section */
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+    color: #fff;
+}
+
+.links-group-1 a, .links-group-2 a{
+    color: hsl(240, 75%, 98%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

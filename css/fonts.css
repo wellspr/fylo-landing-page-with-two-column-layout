@@ -1,0 +1,120 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+/* Typography */
+
+.big-header{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.md-header{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+/* Header */
+
+.navbar-item a{
+    font-size: 0.75rem;
+}
+
+/* Opening */
+
+.button-submit{
+    font-weight: bold;
+}
+
+/* Features */
+
+.how-it-works-text{
+    font-size: 0.7rem;
+}
+
+/* Testimonial */
+
+.testimonial-text .paragraph{
+    font-size: 0.65rem;
+}
+
+.testimonial-name{
+    font-size: 0.65rem;
+}
+
+.testimonial-title{
+    font-size: 0.5rem;
+
+}
+
+/* Get Access */
+
+.cta-form{
+    font-size: 0.8rem;
+}
+
+.cta-button-submit{
+    font-weight: bold;
+}
+
+/* Footer Section */
+
+.attribution {
+    font-size: 11px;
+}
+
+
+@media screen and (min-width: 1200px){
+
+    .big-header{
+        font-size: 2.5rem;
+    }
+
+    .md-header{
+        font-size: 2rem;
+    }
+
+    .paragraph{
+        font-size: 1.2rem;
+    }
+
+    .navbar-item a{
+        font-size: 1rem;
+    }
+
+    /* Features */
+
+    .how-it-works-text{
+        font-size: 1rem;
+    }
+
+    /* Testimonial */
+
+    .testimonial-text .paragraph{
+        font-size: 0.9rem;
+    }
+
+    .testimonial-name{
+        font-size: 0.9rem;
+    }
+
+    .testimonial-title{
+        font-size: 0.8rem;
+    }
+
+}

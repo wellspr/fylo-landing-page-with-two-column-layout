@@ -1,0 +1,272 @@
+@media (min-width: 768px) {
+
+    body{
+
+    }
+
+
+    .header-logo-image{
+        float: left;
+        width: 30%;
+    }
+
+    .opening{
+        float: left;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .opening .paragraph{
+        padding: 0;
+    }
+
+    .opening-image{
+        float: right;
+        width: 50%;
+        padding: 1%;
+    }
+
+    .opening-text-box{
+        float: right;
+        width: 50%;
+        text-align: left;
+    }
+
+    .form{
+        float: right;
+        width: 50%;
+        padding: 2% 0;
+        text-align: left;
+    }
+
+    .form input{
+        padding: 2%;
+        margin: 1% 0;
+        border-style: solid;
+        border-width: thin;
+        border-radius: 5px;
+    }
+    .form input[type="email"]{
+        float: left;
+        width: 50%;
+    }
+
+    .form input.button-submit{
+        float: left;
+        width: 30%;
+        margin-left: 10px;
+    }
+
+    /* Background Image */
+
+    .curve-desktop{
+        position: relative;
+        display: block;
+        bottom: -7px;
+        width: 100%;
+    }
+
+    .curve-mobile{
+        display: none;
+    }
+
+
+    /* Features */
+
+    .features{
+        float: left;
+        width: 100%;
+        padding: 5%;
+        padding-bottom: 8%;
+    }
+
+    .features-image{
+        float: right;
+        width: 50%;
+        padding: 1%;
+    }
+
+    .illustration{
+        width: 100%;
+    }
+
+    .features-text-box{
+        float: right;
+        text-align: left;
+        width: 50%;
+    }
+
+    .how-it-works{
+        display: flex;
+        justify-content: flex-start;
+        padding: 5%;
+        padding-left: 0;
+    }
+
+    .how-it-works a{
+        text-decoration: none;
+    }
+
+    .how-it-works-text{
+        display: inline-flex;
+        align-content: center;
+        border-bottom: solid;
+        border-width: 2px;
+        padding-bottom: 3px;
+    }
+
+    .how-it-works-arrow{
+        display: inline-flex;
+        align-content: center;
+        padding-left: 5px;
+    }
+
+
+    /* Testimonial */
+
+    .testimonial{
+        float: left;
+        width: 40%;
+        padding: 2% 3%;
+        margin: 0;
+        text-align: left;
+        border-radius: 5px;
+        box-shadow: 1px 1px 15px hsl(0, 0%, 75%);
+    }
+
+    .testimonial-text{
+        float: left;
+    }
+
+    .testimonial-text .paragraph{
+        padding: 3% 0;
+    }
+
+    .avatar-info{
+        float: left;
+        padding: 0;
+    }
+
+    .testimonial-avatar-image{
+        float: left;
+        width: 15%;
+        border-radius: 50%;
+    }
+
+    .testimonial-name{
+        float: left;
+        width: 85%;
+        padding: 2.5% 0 1px 5%;
+        margin: 0;
+    }
+
+    .testimonial-title{
+        float: left;
+        width: 85%;
+        padding: 1px 0 2.5% 5%;
+        margin: 0;
+    }
+
+    /* Get Access */
+
+    .get-access{
+        padding: 6% 5%;
+        text-align: left;
+    }
+
+    .get-access-text{
+        float: left;
+        width: 50%;
+        padding: 0 5%;
+    }
+
+    .cta-text{
+        padding-left: 0;
+    }
+
+    .cta-form{
+        float: left;
+        width: 50%;
+        padding: 2% 5%;
+    }
+
+    /* Footer Section */
+
+    footer{
+        padding: 5%;
+        padding-bottom: 1%;
+    }
+
+    .image-box{
+        float: left;
+        width: 100%;
+    }
+    .footer-logo-image{
+        padding: 1% 5%;
+    }
+
+    .footer-content{
+        float: left;
+        width: 100%;
+    }
+    .contact-info{
+        float: left;
+        width: 35%;
+        padding: 3%;
+    }
+
+    .phone{
+        padding: 1% 5%;
+    }
+
+    .phone img{
+        padding-right: 1%;
+    }
+
+    .email{
+        padding: 1% 5%;
+    }
+
+    .email img{
+        padding-right: 1%;
+    }
+
+    .links-group-1, .links-group-2{
+        float: left;
+        width: 20%;
+        padding: 3%;
+    }
+
+    .links-group-1 a, .links-group-2 a{
+        text-decoration: none;
+    }
+
+    .links-group-1 ul, .links-group-2 ul{
+        padding: 0;
+        margin: 0;
+    }
+
+    .links-group-1 li, .links-group-2 li{
+        list-style-type: none;
+        padding: 5% 0;
+    }
+
+    .social{
+        float: left;
+        width: 25%;
+        text-align: center;
+        padding: 3%;
+    }
+
+    .social-icon{
+        padding: 3%;
+    }
+
+    .attribution {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding: 1%;
+    }
+
+}

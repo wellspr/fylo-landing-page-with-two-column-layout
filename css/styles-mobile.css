@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    line-height: normal;
+    text-align: center;
+}
+
+
+.big-header{
+    line-height: 1.5;
+    padding: 3% 0;
+}
+
+.md-header{
+    line-height: 1.5;
+    padding: 3% 0;
+}
+
+.paragraph{
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+.header{
+    float: left;
+    width: 100%;
+    padding: 6% 5%;
+}
+
+.header-image-box{
+    float: left;
+    width: 50%;
+}
+
+.header-logo-image{
+    float: left;
+    width: 50%;
+}
+
+.navbar-box{
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+
+.navbar-item{
+    display: inline;
+    padding: 0 3%;
+}
+
+.navbar-item a{
+    text-decoration: none;
+}
+
+/* Opening */
+
+.opening{
+    float: left;
+    width: 100%;
+    padding: 15% 5%;
+}
+
+.opening p{
+    padding: 5%;
+}
+
+.form{
+    padding: 1% 5%;
+}
+
+.form input{
+    width: 100%;
+    padding: 3% 5%;
+    margin: 1% 0;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 4px;
+}
+
+.button-submit{
+    font-weight: bold;
+}
+
+.curve-box{
+    position: relative;
+    z-index:-1;
+}
+
+.curve-mobile{
+    position: relative;
+    bottom: -7px;
+    width: 100%;
+}
+
+.curve-desktop{
+    display: none;
+}
+
+
+/* Features */
+
+.features{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 15% 5% 15%;
+}
+
+.illustration{
+    width: 100%;
+}
+
+.how-it-works{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    margin: 10px 0;
+}
+
+.how-it-works a{
+    text-decoration: none;
+}
+
+.how-it-works-text{
+    display: inline-flex;
+    align-content: center;
+    border-bottom: solid;
+    border-width: thin;
+    padding-bottom: 3px;
+}
+
+.how-it-works-arrow{
+    display: inline-flex;
+    align-content: center;
+    padding-left: 5px;
+}
+
+
+/* Testimonial */
+
+.testimonial{
+    float: left;
+    padding: 5% 8%;
+    margin: 5%;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 1px 1px 15px hsl(0, 0%, 75%);
+}
+
+.testimonial-text{
+    float: left;
+}
+
+.testimonial-text .paragraph{
+    padding: 3% 0;
+}
+
+.avatar-info{
+    float: left;
+}
+
+.testimonial-avatar-image{
+    float: left;
+    width: 15%;
+    /* padding-right: 3%; */
+    border-radius: 50%;
+}
+
+.testimonial-name{
+    float: left;
+    width: 85%;
+    padding: 2.5% 0 1px 5%;
+}
+
+.testimonial-title{
+    float: left;
+    width: 85%;
+    padding: 1px 0 2.5% 5%;
+}
+
+
+/* Get Access */
+
+.get-access{
+    float: left;
+    padding: 12% 5% 18%;
+    width: 100%;
+}
+
+.cta-text{
+    padding: 0 5% 5%;
+}
+
+.cta-form{
+    padding: 1% 15%;
+    margin-top: 20px;
+}
+
+.cta-form input{
+    width: 100%;
+    padding: 3% 5%;
+    margin: 1% 0;
+    border-radius: 4px;
+}
+
+.cta-button-submit{
+    border-width: 0;
+}
+
+
+/* Footer Section */
+
+footer{
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding: 10% 5%;
+}
+
+.footer-logo-image{
+    padding: 5%;
+}
+
+.contact-info{
+    padding: 3%;
+}
+
+.phone{
+    padding: 3% 5%;
+}
+.phone img{
+    padding-right: 3%;
+}
+
+.email{
+    padding: 3% 5%;
+}
+.email img{
+    padding-right: 3%;
+}
+
+.links-group-1, .links-group-2{
+    padding: 3%;
+}
+
+.links-group-1 a, .links-group-2 a{
+    text-decoration: none;
+}
+
+.links-group-1 ul, .links-group-2 ul{
+    padding: 0;
+    margin: 0;
+}
+
+.links-group-1 li, .links-group-2 li{
+    list-style-type: none;
+    padding: 3% 0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.social-icon{
+    padding: 3%;
+}
+
+.attribution {
+    text-align: center;
+}
